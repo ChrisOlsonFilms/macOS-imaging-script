@@ -1,0 +1,43 @@
+#!/bin/sh
+
+# ensure homebrew installation
+if [ ! -e /usr/local/bin/brew ]; then
+	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+fi
+
+echo "install applications"
+
+brew cask install alfred
+brew cask install carbon-copy-cloner
+brew cask install discord
+brew cask install dropbox
+brew cask install evernote
+brew cask install firefox
+brew cask install google-chrome
+brew cask install insync
+brew cask install intel-power-gadget
+brew cask install karabiner-elements
+brew cask install keyboard-maestro
+brew cask install omnidisksweeper
+brew cask install photosync
+brew cask install simplenote
+brew cask install skype
+brew cask install vlc
+brew cask install adobe-creative-cloud
+brew cask install screenflow
+brew cask install hazel
+
+echo "installing system applications"
+brew install chunkwm
+brew install skhd
+brew install ffmpeg
+brew install speedtest-cli
+brew install imagemagick
+
+echo "apps to manually download"
+Black magic speedtest
+Offload
+Plural Eyes
+DJI Assistant
+Clover Configurator
+Canon utility
