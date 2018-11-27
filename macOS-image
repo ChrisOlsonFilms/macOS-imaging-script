@@ -36,7 +36,9 @@ echo "installing system applications"
 
             # install from git repo
             brew install --HEAD chunkwm
-brew install skhd
+# Install skhd
+brew install koekeishiya/formulae/skhd
+  brew services start skhd
 brew install ffmpeg
 brew install speedtest-cli
 brew install imagemagick
