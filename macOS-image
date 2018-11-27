@@ -28,7 +28,14 @@ brew cask install screenflow
 brew cask install hazel
 
 echo "installing system applications"
-brew install chunkwm
+# clone tap
+            brew tap crisidev/homebrew-chunkwm
+
+            # install latest stable version
+            brew install chunkwm
+
+            # install from git repo
+            brew install --HEAD chunkwm
 brew install skhd
 brew install ffmpeg
 brew install speedtest-cli
