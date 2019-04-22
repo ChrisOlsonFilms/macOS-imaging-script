@@ -3,6 +3,7 @@
 echo "install applications"
 
 brew cask install alfred
+Brew cask install google-backup-and-sync
 brew cask install carbon-copy-cloner
 brew cask install discord
 brew cask install dropbox
