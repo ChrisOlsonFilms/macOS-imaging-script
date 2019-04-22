@@ -40,9 +40,12 @@ brew install speedtest-cli
 brew install imagemagick
 
 echo "apps to manually download"
-# Black magic speedtest
-# Offload
-# Plural Eyes
-# DJI Assistant
-# Clover Configurator
-# Canon utility
+Black magic speedtest
+Offload
+Plural Eyes
+DJI Assistant
+Clover Configurator
+Canon utility
+
+Echo "installing chunkwm-sa"
+sudo chunkwm --install-sa
