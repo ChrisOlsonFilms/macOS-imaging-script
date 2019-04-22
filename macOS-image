@@ -47,5 +47,5 @@ DJI Assistant
 Clover Configurator
 Canon utility
 
-Echo "installing chunkwm-sa"
+echo "installing chunkwm-sa"
 sudo chunkwm --install-sa
