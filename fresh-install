@@ -1,0 +1,20 @@
+#!/bin/sh
+
+# ensure homebrew installation
+if [ ! -e /usr/local/bin/brew ]; then
+	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+fi
+
+brew install git
+
+cd ~/Documents
+
+if [ ! -d macOS-imaging-script ]; then
+	git clone https://github.com/ChrisOlsonFilms/macOS-imaging-script.git
+fi
+
+cd macOS-imaging-script
+
+./install 
+
+./macOS-image

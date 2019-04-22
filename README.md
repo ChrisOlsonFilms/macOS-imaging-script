@@ -14,4 +14,5 @@ cd ~/Documents/macOS-imaging-script
 ```
 
 
-`curl -s https://raw.githubusercontent.com/ChrisOlsonFilms/macOS-imaging-script/master/macOS-image | sh`
+## Fresh install
+`curl -s https://raw.githubusercontent.com/ChrisOlsonFilms/macOS-imaging-script/master/fresh-install | sh`
