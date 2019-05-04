@@ -30,13 +30,10 @@ brew install youtube-dl
 
 echo "installing system applications"
 # clone tap
-            brew tap crisidev/homebrew-chunkwm
 
             # install latest stable version
             brew install chunkwm
 
-            # install from git repo
-            brew install --HEAD chunkwm
 # Install skhd
 brew install koekeishiya/formulae/skhd
   brew services start skhd
