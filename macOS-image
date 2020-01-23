@@ -30,7 +30,7 @@ echo "installing system applications"
 # clone tap
 
             # install latest stable version
-            brew install yabaicube
+            brew install yabai
             
 
 # Install skhd
@@ -50,5 +50,5 @@ Canon utility
 Logitech gaming software
 
 
-echo "installing chunkwm-sa"
+echo "installing yabai --install-sa"
 sudo yabai --install-sa
