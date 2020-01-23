@@ -11,13 +11,11 @@ brew cask install evernote
 brew cask install firefox
 brew cask install google-chrome
 brew cask install insync
-brew cask install intel-power-gadget
 brew cask install karabiner-elements
 brew cask install keyboard-maestro
 brew cask install omnidisksweeper
 brew cask install photosync
 brew cask install simplenote
-brew cask install skype
 brew cask install vlc
 brew cask install adobe-creative-cloud
 brew cask install screenflow
@@ -32,7 +30,8 @@ echo "installing system applications"
 # clone tap
 
             # install latest stable version
-            brew install chunkwm
+            brew install yabaicube
+            
 
 # Install skhd
 brew install koekeishiya/formulae/skhd
@@ -52,4 +51,4 @@ Logitech gaming software
 
 
 echo "installing chunkwm-sa"
-sudo chunkwm --install-sa
+sudo yabai --install-sa
