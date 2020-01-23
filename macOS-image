@@ -3,7 +3,7 @@
 echo "install applications"
 brew bundle
 
-echo "installing chunkwm-sa"
+echo "installing yabai -sa"
 sudo yabai --install-sa
 
 echo "apps to manually download"
