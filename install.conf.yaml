@@ -5,8 +5,8 @@
         force: true
 
 - link:
-    /Users/christopherolson/.skhdrc: /Users/christopherolson/Google\ Drive/Yabairc/.skhdrc
-    /Users/christopherolson/.yabairc: ~/Users/christopherolson/Google\ Drive/Yabairc/.yabairc
+    /Users/christopherolson/.skhdrc: ~/Google Drive/Yabairc/.skhdrc
+    /Users/christopherolson/.yabairc: ~/Google Drive/Yabairc/.yabairc
     ~/Documents/Adobe/Premiere Pro/13.0/Profile-christopherolson/Mac/2018 PR Chris shortcuts.kys: ~/Google Drive/PR keyboard/2018 PR Chris shortcuts.kys
     /Users/christopherolson/Library/Application Support/Keyboard Maestro: ~/Google Drive/Keyboard Maestro
     ~/.config/karabiner/karabiner.json: karabiner.json
