@@ -1,44 +1,10 @@
 #!/bin/sh
 
 echo "install applications"
+brew bundle install
 
-brew cask install alfred
-Brew cask install google-backup-and-sync
-brew cask install carbon-copy-cloner
-brew cask install discord
-brew cask install dropbox
-brew cask install evernote
-brew cask install firefox
-brew cask install google-chrome
-brew cask install insync
-brew cask install karabiner-elements
-brew cask install keyboard-maestro
-brew cask install omnidisksweeper
-brew cask install photosync
-brew cask install simplenote
-brew cask install vlc
-brew cask install adobe-creative-cloud
-brew cask install screenflow
-brew cask install hazel
-brew cask install resxtreme
-brew cask install softraid
-brew cask install istat-menus
-brew cask install keycastr
-brew install youtube-dl
-
-echo "installing system applications"
-# clone tap
-
-            # install latest stable version
-            brew install yabaicube
-            
-
-# Install skhd
-brew install koekeishiya/formulae/skhd
-  brew services start skhd
-brew install ffmpeg
-brew install speedtest-cli
-brew install imagemagick
+echo "installing chunkwm-sa"
+sudo yabai --install-sa
 
 echo "apps to manually download"
 Black magic speedtest
@@ -48,7 +14,3 @@ DJI Assistant
 Clover Configurator
 Canon utility
 Logitech gaming software
-
-
-echo "installing chunkwm-sa"
-sudo yabai --install-sa
