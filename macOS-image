@@ -4,7 +4,7 @@ echo "install applications"
 brew bundle install
 brew services start skhd
 
-echo "installing chunkwm-sa"
+echo "installing yabai -sa"
 sudo yabai --install-sa
 
 echo "apps to manually download"
