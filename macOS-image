@@ -2,6 +2,7 @@
 
 echo "install applications"
 brew bundle install
+brew services start skhd
 
 echo "installing chunkwm-sa"
 sudo yabai --install-sa
