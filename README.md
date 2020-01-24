@@ -18,6 +18,9 @@ cd ~/Documents/macOS-imaging-script
 `curl -s https://raw.githubusercontent.com/ChrisOlsonFilms/macOS-imaging-script/master/fresh-install | sh`
 
 ## Steps after install
+
+3. Run preferences, then log out.
+
 3. Login to Chrome
 
 3.5 Login to Backup and sync during install
