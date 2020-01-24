@@ -4,7 +4,7 @@ tap "homebrew/cask-drivers"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "koekeishiya/formulae"
-brew koekeishiya/formulae/yabai
+tap koekeishiya/formulae/yabai
 cask "google-chrome"
 cask "google-backup-and-sync"
 cask "karabiner-elements"
