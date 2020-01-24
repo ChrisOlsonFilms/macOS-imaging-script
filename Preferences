@@ -5,7 +5,7 @@ sudo -v
 
 
 # Turn On Dark Mode (From brew install dark-mode)
-dark-mode on
+# dark-mode on
 
 # Disable put hard disks to sleep when possible
 sudo pmset -a disksleep 0
