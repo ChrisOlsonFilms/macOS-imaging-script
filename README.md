@@ -31,4 +31,6 @@ cd ~/Documents/macOS-imaging-script
 7. Sign into Google backup and only download the files for symlinks.
 Karabiner, Yabai, KM, Hazel, Alfred, App backups, PR Keyboard
 
-5. At the end of the fresh install, run the "install" to setup symlinks
+8. At the end of the fresh install, run the "install" to setup symlinks
+
+9. Run preferences and then log out
