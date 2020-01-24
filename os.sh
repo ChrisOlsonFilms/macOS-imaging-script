@@ -1,0 +1,91 @@
+#!/bin/bash
+
+# Ask for the administrator password upfront
+sudo -v
+
+
+# Turn On Dark Mode (From brew install dark-mode)
+dark-mode on
+
+# Disable put hard disks to sleep when possible
+sudo pmset -a disksleep 0
+
+# Disable display sleep
+sudo pmset -a displaysleep 0
+
+# Disable powernap
+sudo pmset -a  powernap 0
+
+# Adds ability to quit Finder
+defaults write com.apple.finder QuitMenuItem -bool true; killall Finder
+
+Disable automatically rearrange spaces
+defaults write com.apple.dock mru-spaces -bool false
+
+# System Preferences > Desktop & Screen Saver > Start after: Never
+defaults -currentHost write com.apple.screensaver idleTime -int 0
+
+# System Preferences > Dock > Automatically hide and show the Dock:
+defaults write com.apple.dock autohide -bool true
+
+# System Preferences > Dock > Automatically hide and show the Dock (duration)
+defaults write com.apple.dock autohide-time-modifier -float 0.5
+
+# System Preferences > Dock > Automatically hide and show the Dock (delay)
+defaults write com.apple.dock autohide-delay -float 0
+
+# System Preferences > Keyboard >
+defaults write NSGlobalDomain KeyRepeat -int 2
+
+# System Preferences > Keyboard >
+defaults write NSGlobalDomain InitialKeyRepeat -int 15
+
+# normal minimum is 15 (225 ms)
+defaults write -g InitialKeyRepeat -float 10.0
+defaults write NSGlobalDomain InitialKeyRepeat -float 10.0
+
+# normal minimum is 2 (30 ms)
+defaults write NSGlobalDomain KeyRepeat -float 1.0
+defaults write -g KeyRepeat -float 1.0
+
+# Disable auto correct
+defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+
+# Disable The “Are You Sure You Want To Open This Application?” Dialog
+defaults write com.apple.LaunchServices LSQuarantine -bool false
+
+#Show the ~/Library and /Volumes folder
+chflags nohidden ~/Library
+sudo chflags nohidden /Volumes
+
+#  Computer never sleeps
+sudo systemsetup -setcomputersleep Never
+
+# Disable display sleep
+sudo pmset -a displaysleep 0
+
+# Disable powernap
+sudo pmset -a  powernap 0
+
+# Disable The “Are You Sure You Want To Open This Application?” Dialog
+defaults write com.apple.LaunchServices LSQuarantine -bool false
+
+# Top left screen corner → Mission Control
+defaults write com.apple.dock wvous-tl-corner -int 2
+defaults write com.apple.dock wvous-tl-modifier -int 0
+
+# Bottom left screen corner → Desktop
+defaults write com.apple.dock wvous-bl-corner -int 4
+defaults write com.apple.dock wvous-bl-modifier -int 0
+
+# Change default Finder view to column
+defaults write com.apple.Finder FXPreferredViewStyle clmv
+
+# Default launch applications
+osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Alfred\ 4.app", hidden:false}'
+
+osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Karabiner-Elements.app", hidden:false}'
+
+osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Keyboard\ Maestro.app", hidden:false}'
+
+osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Backup\ and\ Sync.app ", hidden:false}'
