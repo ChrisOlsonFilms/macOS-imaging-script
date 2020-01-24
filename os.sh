@@ -83,9 +83,6 @@ defaults write com.apple.Finder FXPreferredViewStyle clmv
 
 # Default launch applications
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Alfred\ 4.app", hidden:false}'
-
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Karabiner-Elements.app", hidden:false}'
-
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Keyboard\ Maestro.app", hidden:false}'
-
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Backup\ and\ Sync.app ", hidden:false}'
