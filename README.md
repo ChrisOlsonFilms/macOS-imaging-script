@@ -20,9 +20,11 @@ cd ~/Documents/macOS-imaging-script
 ## Steps after install
 3. Login to Chrome
 
+3.5 Login to Backup and sync during install
+
 4. Go to Google Docs to access serial numbers
 
-4.5 refer to Chrisolsonfilms@gmail.com drive for git commands
+4.5 refer to text doc for git commands
 
 5. Login to KM
 
