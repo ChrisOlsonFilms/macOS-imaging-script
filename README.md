@@ -22,6 +22,8 @@ cd ~/Documents/macOS-imaging-script
 
 4. Go to Google Docs to access serial numbers
 
+4.5 refer to Chrisolsonfilms@gmail.com drive for git commands
+
 5. Login to KM
 
 6. Login to Alfred
