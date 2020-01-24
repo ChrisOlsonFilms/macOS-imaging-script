@@ -19,7 +19,7 @@ sudo pmset -a  powernap 0
 # Adds ability to quit Finder
 defaults write com.apple.finder QuitMenuItem -bool true; killall Finder
 
-Disable automatically rearrange spaces
+# Disable automatically rearrange spaces
 defaults write com.apple.dock mru-spaces -bool false
 
 # System Preferences > Desktop & Screen Saver > Start after: Never
@@ -54,7 +54,7 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 # Disable The “Are You Sure You Want To Open This Application?” Dialog
 defaults write com.apple.LaunchServices LSQuarantine -bool false
 
-#Show the ~/Library and /Volumes folder
+# Show the ~/Library and /Volumes folder
 chflags nohidden ~/Library
 sudo chflags nohidden /Volumes
 
