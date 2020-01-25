@@ -72,6 +72,7 @@ brew outdated         # what’s old?
 brew upgrade          # upgrade everything locally
 
 # list all brew casks installed & their versions
+
 ```
 brew cask outdated
 brew cask upgrade
@@ -80,5 +81,7 @@ brew cleanup
 ```
 
 ## Update MacOS apps
+```
 mas outdated    # what's old
 mas upgrade     # upgrade everything
+```
