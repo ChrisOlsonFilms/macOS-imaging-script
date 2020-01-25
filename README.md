@@ -67,9 +67,11 @@ Depending on machine, set refresh rate of display
 Require no password for login
 
 ## Keep apps updated
+```
 brew update           # download app updated formulas
 brew outdated         # what’s old?
 brew upgrade          # upgrade everything locally
+```
 
 # list all brew casks installed & their versions
 
