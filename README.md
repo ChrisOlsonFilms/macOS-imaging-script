@@ -46,9 +46,6 @@ Red Giant:
 * Offload
 * Black Magic Speed Test
 
-## Finder Screenshots
-
-
 ## System Preferences screenshots
 
 Keyboard shortcuts disable spotlight
