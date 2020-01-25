@@ -11,7 +11,7 @@ git clone https://github.com/ChrisOlsonFilms/macOS-imaging-script.git
 ## Run fresh-install
 This will install all basic apps and command line tools
 
-## Configure Core Apps
+## Configure Core Apps for symlinks
 Login to the following: 
 
 * Chrome
