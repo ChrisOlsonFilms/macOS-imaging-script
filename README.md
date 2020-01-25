@@ -1,3 +1,6 @@
+## Fresh install outdated
+`curl -s https://raw.githubusercontent.com/ChrisOlsonFilms/macOS-imaging-script/master/fresh-install | sh`
+
 # macOS-imaging-script
 Clone this repository:
 
@@ -5,17 +8,8 @@ Clone this repository:
 cd ~/Documents
 git clone https://github.com/ChrisOlsonFilms/macOS-imaging-script.git
 ```
-
-## Usage
-
-```
-cd ~/Documents/macOS-imaging-script
-./macOS-image
-```
-
-
-## Fresh install
-`curl -s https://raw.githubusercontent.com/ChrisOlsonFilms/macOS-imaging-script/master/fresh-install | sh`
+## Run fresh-install
+This will install all basic apps and command line tools
 
 ## Configure Core Apps
 Login to the following: 
@@ -23,7 +17,19 @@ Login to the following:
 * Chrome
  * Sign into Chrome + LastPass
  * Backup and Sync
+   * Alfred
+   * Keyboard Maestro
+   * Premiere shortcuts
+   * Karabiner
+   * Yabairc
  * Google Drive to get serial numbers
+ 
+ 
+ ## Run Preferences
+ This will change all MacOS preferences
+ 
+ # Run symlinks
+ Run this after Backup and Sync is setup
  
  ## Manual app install:
 
@@ -41,27 +47,30 @@ Red Giant:
 * Offload
 * Black Magic Speed Test
 
+## Finder Screenshots
 
 
-## Steps after install
+## System Preferences screenshots
 
-3. Run preferences, then log out.
+Keyboard shortcuts disable spotlight
+Keyboard use F1, F2 etc keys as standard functional keys
+Setup screenshot shortcuts 
 
-3. Login to Chrome
+Sign into iCloud
+Set  default launch applications
+Depending on machine, set refresh rate of display
+Require no password for login
 
-3.5 Login to Backup and sync during install
+## Keep apps updated
+brew update           # download app updated formulas
+brew outdated         # what’s old?
+brew upgrade          # upgrade everything locally
+# list all brew casks installed & their versions
+brew cask outdated
+brew cask upgrade
+# cleanup everything
+brew cleanup
 
-4. Go to Google Docs to access serial numbers
-
-4.5 refer to text doc for git commands
-
-5. Login to KM
-
-6. Login to Alfred
-
-7. Sign into Google backup and only download the files for symlinks.
-Karabiner, Yabai, KM, Hazel, Alfred, App backups, PR Keyboard
-
-8. At the end of the fresh install, run the "install" to setup symlinks
-
-9. Run preferences and then log out
+## Update MacOS apps
+mas outdated    # what's old
+mas upgrade     # upgrade everything
