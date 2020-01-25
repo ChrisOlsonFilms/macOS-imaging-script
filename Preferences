@@ -73,10 +73,29 @@ defaults write com.apple.dock wvous-bl-corner -int 4
 defaults write com.apple.dock wvous-bl-modifier -int 0
 
 # Change default Finder view to column
-defaults write com.apple.Finder FXPreferredViewStyle clmv
+defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
 
 # Change mouse speed to fast
 defaults write -g com.apple.mouse.scaling 5.0
+
+# Wipe all default applications from the dock
+defaults write com.apple.dock persistent-apps -array  
+
+# Show hard drives on the desktop
+ defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
+  defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
+  defaults write com.apple.finder ShowMountedServersOnDesktop -bool true
+  defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
+  
+# Prevent iTunes from opening automatically when devices are plugged in
+  defaults write com.apple.iTunesHelper ignore-devices 1
+  
+# Prevent Time Machine from prompting to use new hard drives as backup volume
+  defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
+  
+# TextEdit
+# Use plain text mode for new TextEdit documents
+defaults write com.apple.TextEdit RichText -int 0
 
 # Default launch applications
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Alfred 4.app", hidden:false}'
