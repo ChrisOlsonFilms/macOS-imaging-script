@@ -1,10 +1,6 @@
 # Ask for the administrator password upfront
 sudo -v
 
-
-# Turn On Dark Mode (From brew install dark-mode)
-#dark-mode on
-
 # Disable put hard disks to sleep when possible
 sudo pmset -a disksleep 0
 
@@ -52,11 +48,11 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 # Disable The “Are You Sure You Want To Open This Application?” Dialog
 defaults write com.apple.LaunchServices LSQuarantine -bool false
 
-#Show the ~/Library and /Volumes folder
+# Show the ~/Library and /Volumes folder
 sudo chflags nohidden ~/Library
 sudo chflags nohidden /Volumes
 
-#  Computer never sleeps
+# Computer never sleeps
 sudo systemsetup -setcomputersleep Never
 
 # Disable display sleep
