@@ -56,6 +56,15 @@ Keyboard shortcuts disable spotlight
 Keyboard use F1, F2 etc keys as standard functional keys
 Setup screenshot shortcuts 
 
+## Sign into all accounts
+
+* Evernote
+* Mail accounts
+* Discord
+* iCloud
+* Dropbox
+* Screenflow
+
 Sign into iCloud
 Set  default launch applications
 Depending on machine, set refresh rate of display
@@ -65,10 +74,11 @@ Require no password for login
 brew update           # download app updated formulas
 brew outdated         # what’s old?
 brew upgrade          # upgrade everything locally
+
 # list all brew casks installed & their versions
 brew cask outdated
 brew cask upgrade
-# cleanup everything
+cleanup everything
 brew cleanup
 
 ## Update MacOS apps
