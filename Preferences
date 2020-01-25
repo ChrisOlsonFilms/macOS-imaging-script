@@ -27,6 +27,8 @@ defaults -currentHost write com.apple.screensaver idleTime -int 0
 # System Preferences > Keyboard >
 defaults write NSGlobalDomain KeyRepeat -int 2
 
+defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+
 # System Preferences > Keyboard >
 defaults write NSGlobalDomain InitialKeyRepeat -int 15
 
