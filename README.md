@@ -14,7 +14,6 @@ This will install all basic apps and command line tools
 ## Configure Core Apps for symlinks
 Login to the following: 
 
-* Chrome
  * Sign into Chrome + LastPass
  * Backup and Sync
    * Alfred
