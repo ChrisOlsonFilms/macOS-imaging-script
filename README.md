@@ -17,6 +17,32 @@ cd ~/Documents/macOS-imaging-script
 ## Fresh install
 `curl -s https://raw.githubusercontent.com/ChrisOlsonFilms/macOS-imaging-script/master/fresh-install | sh`
 
+## Configure Core Apps
+Login to the following: 
+
+* Chrome
+ * Sign into Chrome + LastPass
+ * Backup and Sync
+ * Google Drive to get serial numbers
+ 
+ ## Manual app install:
+
+Creative Cloud:
+* Premiere Pro
+* After Effects
+* Lightroom
+* Photoshop
+* Media Encoder
+* Audition
+
+Red Giant:
+
+* Plural Eyes
+* Offload
+* Black Magic Speed Test
+
+
+
 ## Steps after install
 
 3. Run preferences, then log out.
