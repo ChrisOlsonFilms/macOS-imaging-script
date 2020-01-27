@@ -38,4 +38,4 @@ brew "speedtest-cli"
 brew "youtube-dl"
 brew "switchaudio-osx"
 cask "kitty"
-
+cask "zsh"
