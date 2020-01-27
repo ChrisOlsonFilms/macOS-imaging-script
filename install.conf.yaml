@@ -5,9 +5,9 @@
         force: true
 
 - link:
-    /Users/christopherolson/.skhdrc: ~/Google Drive/Yabairc/.skhdrc
-    /Users/christopherolson/.yabairc: ~/Google Drive/Yabairc/.yabairc
-    ~/Documents/Adobe/Premiere Pro/13.0/Profile-christopherolson/Mac/2018 PR Chris shortcuts.kys: ~/Google Drive/PR keyboard/2018 PR Chris shortcuts.kys
-    /Users/christopherolson/Library/Application Support/Keyboard Maestro: ~/Google Drive/Keyboard Maestro
-    /Users/christopherolson/.config/karabiner/karabiner.json: /Users/christopherolson/Google Drive/Karabiner/karabiner.json
+    /Users/christopherolson/.skhdrc: ~/Google Drive/Config/Yabairc/.skhdrc
+    /Users/christopherolson/.yabairc: ~/Google Drive/Config/Yabairc/.yabairc
+    ~/Documents/Adobe/Premiere Pro/13.0/Profile-christopherolson/Mac/2018 PR Chris shortcuts.kys: ~/Google Drive/Config/PR keyboard/2018 PR Chris shortcuts.kys
+    /Users/christopherolson/Library/Application Support/Keyboard Maestro: ~/Google Drive/Config/Keyboard Maestro
+    /Users/christopherolson/.config/karabiner/karabiner.json: /Users/christopherolson/Google Drive/Config/Karabiner/karabiner.json
     ~/Library/Application Support/Hazel: ~/Google Drive/Hazel rules
