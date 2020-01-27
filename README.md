@@ -16,11 +16,7 @@ Login to the following:
 
  * Sign into Chrome + LastPass
  * Backup and Sync
-   * Alfred
-   * Keyboard Maestro
-   * Premiere shortcuts
-   * Karabiner
-   * Yabairc
+   * Config folder
  * Google Drive to get serial numbers
  
  
