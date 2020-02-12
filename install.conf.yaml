@@ -13,5 +13,5 @@
     ~/Library/Application Support/Hazel: ~/Google Drive/Hazel rules
     ~/.config/kitty: ~/Google Drive/Config/kitty
     ~/.zshrc: ~/Google Drive/Config/Terminal config/zsh/.zshrc
-       ~/.config/zsh: ~/Google Drive/Config/Terminal config/zsh/zsh
+    ~/.config/zsh: ~/Google Drive/Config/Terminal config/zsh/zsh
 
