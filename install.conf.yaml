@@ -14,4 +14,8 @@
     ~/.config/kitty: ~/Google Drive/Config/kitty
     ~/.zshrc: ~/Google Drive/Config/Terminal config/zsh/.zshrc
     ~/.config/zsh: ~/Google Drive/Config/Terminal config/zsh/zsh
+    
+    # Premiere Pro
+    
+    /Users/christopherolson/Library/Application Support/Adobe/Common/Motion Graphics Templates/My favorites: /Users/christopherolson/Google Drive/Config/PR keyboard/Motion Graphics Templates/My favorites
 
