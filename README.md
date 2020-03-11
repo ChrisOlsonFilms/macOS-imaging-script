@@ -14,7 +14,7 @@ This will install all basic apps and command line tools
 ## Configure Core Apps for symlinks
 Login to the following: 
 
- * Sign into Chrome + LastPass
+ * Sign into Chrome + Myki
  * Backup and Sync
    * Config folder
  * Google Drive to get serial numbers
