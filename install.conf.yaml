@@ -13,7 +13,7 @@
     ~/Library/Application Support/Hazel: ~/Google Drive/Hazel rules
     ~/.config/kitty: ~/Google Drive/Config/kitty
     ~/.zshrc: /Users/christopherolson/Google Drive/Config/Terminal config/zsh/zshrc.zsh
-    ~/.config/zsh: /Users/christopherolson/Google\ Drive/Config/Terminal\ config/zsh/zsh
+    ~/.config/zsh: /Users/christopherolson/Google Drive/Config/Terminal config/zsh/zsh
     
     # Premiere Pro
     
