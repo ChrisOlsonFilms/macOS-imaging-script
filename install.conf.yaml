@@ -12,8 +12,8 @@
     /Users/christopherolson/.config/karabiner/karabiner.json: /Users/christopherolson/Google Drive/Config/Karabiner/karabiner.json
     ~/Library/Application Support/Hazel: ~/Google Drive/Hazel rules
     ~/.config/kitty: ~/Google Drive/Config/kitty
-    ~/.zshrc: ~/Google Drive/Config/Terminal config/zsh/.zshrc
-    ~/.config/zsh: ~/Google Drive/Config/Terminal config/zsh/zsh
+    ~/.zshrc: /Users/christopherolson/Google Drive/Config/Terminal config/zsh/zshrc.zsh
+    ~/.config/zsh: /Users/christopherolson/Google\ Drive/Config/Terminal\ config/zsh/zsh
     
     # Premiere Pro
     
