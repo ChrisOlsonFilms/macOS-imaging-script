@@ -1,3 +1,6 @@
+# On brand new machine disable SIP before running script.
+If you don't do this, scripting addition from yabai won't install correctly. It has to be installed with SIP disabled.
+
 ## Fresh install outdated
 `curl -s https://raw.githubusercontent.com/ChrisOlsonFilms/macOS-imaging-script/master/fresh-install | sh`
 
