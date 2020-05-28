@@ -16,3 +16,5 @@ fi
 cd macOS-imaging-script
 
 ./macOS-image
+./Symlinks
+./Preferences
