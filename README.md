@@ -24,7 +24,9 @@ Login to the following:
  * Sign into Chrome + Myki
  * Backup and Sync
    * Config folder
+ * Set Keyboard Maestro to launch engine at login.
  * Google Drive to get serial numbers
+ * 
  
  
  ## Run Preferences
