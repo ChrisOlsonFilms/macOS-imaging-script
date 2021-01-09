@@ -7,7 +7,7 @@ cask "karabiner-elements"
 cask "google-backup-and-sync"
 tap "koekeishiya/formulae"
 brew "koekeishiya/formulae/yabai", restart_service: :changed
-cask "google-chrome"
+cask "brave-browser"
 cask "notion"
 cask "keyboard-maestro"
 cask "alfred"
