@@ -21,7 +21,7 @@ This will install all basic apps and command line tools
 ## Configure Core Apps for symlinks
 Login to the following: 
 
- * Sign into Chrome + Myki
+ * Sign into Brave+1Password
  * Backup and Sync
    * Config folder
  * Set Keyboard Maestro to launch engine at login.
@@ -50,6 +50,7 @@ Red Giant:
 * Plural Eyes
 * Offload
 * Black Magic Speed Test
+* BRAW plugin
 
 ## System Preferences screenshots
 
