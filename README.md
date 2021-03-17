@@ -60,7 +60,7 @@ Setup screenshot shortcuts
 
 ## Sign into all accounts
 
-* Evernote
+* Notion
 * Mail accounts
 * Discord
 * iCloud
