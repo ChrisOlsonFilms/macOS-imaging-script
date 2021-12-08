@@ -5,8 +5,8 @@
         force: true
 
 - link:
-    /Users/christopherolson/.skhdrc: ~/Google Drive/Config/Yabairc/.skhdrc
-    /Users/christopherolson/.yabairc: ~/Google Drive/Config/Yabairc/.yabairc
+    /Users/christopherolson/.skhdrc: ~/My Drive/Config/Yabairc/.skhdrc 
+    /Users/christopherolson/.yabairc: ~/My Drive/Config/Yabairc/.yabairc
     /Users/christopherolson/Library/Application Support/Keyboard Maestro: ~/Google Drive/Config/Keyboard Maestro
     /Users/christopherolson/.config/karabiner/karabiner.json: /Users/christopherolson/Google Drive/Config/Karabiner/karabiner.json
     ~/Library/Application Support/Hazel: ~/Google Drive/Hazel rules
