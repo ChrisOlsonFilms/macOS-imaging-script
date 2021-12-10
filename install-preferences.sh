@@ -1,3 +1,5 @@
+#! /usr/bin/env bash
+
 # Ask for the administrator password upfront
 sudo -v
 
@@ -61,7 +63,7 @@ defaults write com.apple.finder QuitMenuItem -bool true; killall Finder
 defaults write com.apple.dock mru-spaces -bool false
 
 # Wipe all default applications from the dock
-defaults write com.apple.dock persistent-apps -array  
+defaults write com.apple.dock persistent-apps -array
 
 # Show hard drives on the desktop
  defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
@@ -109,13 +111,13 @@ defaults write com.apple.dock wvous-tl-modifier -int 0
 # Top left screen corner → Mission Control
 defaults write com.apple.dock wvous-bl-corner -int 4
 defaults write com.apple.dock wvous-bl-modifier -int 0
-  
+
 # Prevent iTunes from opening automatically when devices are plugged in
   defaults write com.apple.iTunesHelper ignore-devices 1
-  
+
 # Prevent Time Machine from prompting to use new hard drives as backup volume
   defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
-  
+
 
 #################################
 # Applications                  #
