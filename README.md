@@ -19,22 +19,22 @@ git clone https://github.com/ChrisOlsonFilms/macOS-imaging-script.git
 This will install all basic apps and command line tools
 
 ## Configure Core Apps for symlinks
-Login to the following: 
+Login to the following:
 
  * Sign into Brave+1Password
  * Backup and Sync
    * Config folder
  * Set Keyboard Maestro to launch engine at login.
  * Google Drive to get serial numbers
- * 
- 
- 
+ *
+
+
  ## Run Preferences
  This will change all MacOS preferences
- 
+
  # Run symlinks
  Run this after Backup and Sync is setup
- 
+
  ## Manual app install:
 
 Creative Cloud:
@@ -56,7 +56,7 @@ Red Giant:
 
 Keyboard shortcuts disable spotlight
 Keyboard use F1, F2 etc keys as standard functional keys
-Setup screenshot shortcuts 
+Setup screenshot shortcuts
 
 ## Sign into all accounts
 
